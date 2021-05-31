@@ -1,5 +1,6 @@
-// modules
+// Dependencies
 const fs = require('fs');
+const uuid = require('uuid');
 const express = require('express');
 const path = require('path');
 
@@ -22,32 +23,28 @@ app.get('/api/notes', (req, res) => res.sendFile(path.join(__dirname, '/public/.
 
 // saving new notes
 app.post('/api/notes', (req, res) => {
+    fs.readFile('./db/db.json', "utf8", function (err, data) {
+        if (err) throw err;
 
-    let highestId = 0;
+        data = JSON.parse(data);
 
-    // get highest id in db
-    for (let i = 0; i < database.length; i++) {
-        let currentNote = database[i];
-
-        if (currentNote.id > highestId) {
-            highestId = currentNote.id;
+        let noteAdd =
+        {
+            title: req.body.title,
+            text: req.body.text,
+            id: uuid.v4()
         }
 
-    }
+        var myNote = data.concat(noteAdd);
 
-    // increment ++ the id
-    const newNote = req.body;
-    newNote.id = parseInt(highestId) + 1;
+        fs.writeFile('./db/db.json', JSON.stringify(myNote), function (err) {
+            if (err) return console.log(err);
+            console.log("Note saved");
+        });
 
-    // add new note to array
-    database.push(newNote);
+    });
 
-    // add new db.json array to db.json
-    fs.writeFile('./db/db.json', JSON.stringify(database), (err) =>
-        err ? console.log(err) : console.log('Note saved.'))
-
-    // Return new note 
-    res.json(newNote);
+    res.json(data);
 });
 
 //BONUS DELETE NOTE
