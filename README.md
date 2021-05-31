@@ -3,7 +3,7 @@
 
 ## Description
 As a small business owner,
-I want to be able to write and store notes.
+I want to be able to write and store and delete notes.
 
 ## Screenshots
 ![Screencap](https://github.com/hugh-bowie/NoteTaker/blob/main/public/assets/NoteTakerLanding.PNG)
