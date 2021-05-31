@@ -8,6 +8,8 @@ I want to be able to write and store and delete notes.
 ## Screenshots
 ![Screencap](https://github.com/hugh-bowie/NoteTaker/blob/main/public/assets/NoteTakerLanding.PNG)
 
+![Screencap](https://github.com/hugh-bowie/NoteTaker/blob/main/public/assets/NoteTakerDefault.PNG)
+
 ## Table of Contents
 
 - [Installation](#installation)
