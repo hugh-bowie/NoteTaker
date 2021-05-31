@@ -13,6 +13,10 @@
         "title": "Volunteer at the local Soup Kitchen",
         "text": "Tell them Creed Bratton sent ya",
         "id": 2
+    },
+    {
+        "title": "Delete ME",
+        "text": "Bonus if you can delete existing nots",
+        "id": 5
     }
 ]
-
