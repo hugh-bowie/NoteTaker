@@ -1,12 +1,18 @@
 [
     {
-        "title":"Watch the new episodes of DEVS on hulu ",
-        "text":"Ron Swanson without a mustache is ridiculous",
+        "title": "write Code Every day",
+        "text": "This is the only Way",
+        "id": 3
+    },
+    {
+        "title": "Watch less of the office",
+        "text": "Come on man, you've watched it start to finish at least ten times",
         "id": 1
     },
     {
-        "title":"Volunteer at the local Soup Kitchen",
-        "text":"Tell them Creed Bratton sent ya",
+        "title": "Volunteer at the local Soup Kitchen",
+        "text": "Tell them Creed Bratton sent ya",
         "id": 2
     }
 ]
+
