@@ -2,7 +2,10 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue)
 
 ## Description
+As a small business owner,
+I want to be able to write and store notes.
 
+## Screenshots
 
 
 ## Table of Contents
