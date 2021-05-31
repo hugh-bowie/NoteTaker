@@ -23,28 +23,32 @@ app.get('/api/notes', (req, res) => res.sendFile(path.join(__dirname, '/public/.
 
 // saving new notes
 app.post('/api/notes', (req, res) => {
-    fs.readFile('./db/db.json', "utf8", function (err, data) {
-        if (err) throw err;
 
-        data = JSON.parse(data);
+    let highestId = 0;
 
-        let noteAdd =
-        {
-            title: req.body.title,
-            text: req.body.text,
-            id: uuid.v4()
+    // get highest id in db
+    for (let i = 0; i < database.length; i++) {
+        let currentNote = database[i];
+
+        if (currentNote.id > highestId) {
+            highestId = currentNote.id;
         }
 
-        var myNote = data.concat(noteAdd);
+    }
 
-        fs.writeFile('./db/db.json', JSON.stringify(myNote), function (err) {
-            if (err) return console.log(err);
-            console.log("Note saved");
-        });
+    // increment ++ the id
+    const newNote = req.body;
+    newNote.id = parseInt(highestId) + 1;
 
-    });
+    // add new note to array
+    database.push(newNote);
 
-    res.json(data);
+    // add new db.json array to db.json
+    fs.writeFile('./db/db.json', JSON.stringify(database), (err) =>
+        err ? console.log(err) : console.log('Note saved.'))
+
+    // Return new note 
+    res.json(newNote);
 });
 
 //BONUS DELETE NOTE
