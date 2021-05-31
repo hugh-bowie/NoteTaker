@@ -1,15 +1,12 @@
 // Dependencies
 const fs = require('fs');
-const uuid = require('uuid');
 const express = require('express');
 const path = require('path');
-
-// database
 const database = require('./db/db.json');
 
 // port and express
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 
 // parse info
 app.use(express.urlencoded({ extended: true }));
