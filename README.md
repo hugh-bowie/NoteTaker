@@ -6,9 +6,9 @@ As a small business owner,
 I want to be able to write and store and delete notes.
 
 ## Screenshots
-![Screencap](https://github.com/hugh-bowie/NoteTaker/blob/main/public/assets/NoteTakerLanding.PNG)
 
-![Screencap](https://github.com/hugh-bowie/NoteTaker/blob/main/public/assets/NoteTakerDefault.PNG)
+
+
 
 ## Table of Contents
 
@@ -32,5 +32,21 @@ The following dependencies will be installed:
 
 - express
 
+## Usage
 
-## Useage
+### 1 Go to application url: https://hb-note-taker.herokuapp.com
+![Screencap](https://github.com/hugh-bowie/NoteTaker/blob/main/public/assets/NoteTakerLanding.PNG)
+
+### 2 Click the Get Started Button:
+![Screencap](https://github.com/hugh-bowie/NoteTaker/blob/main/public/assets/NoteTakerDefault.PNG)
+
+### 3 Add new notes, review old notes, delete notes.
+
+## Built With Following Languages
+* Node.js
+* JavaScript
+* HTML
+* CSS
+
+## Author:
+Hugh Bowie IV
