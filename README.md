@@ -6,7 +6,7 @@ As a small business owner,
 I want to be able to write and store notes.
 
 ## Screenshots
-
+![Screencap](https://github.com/hugh-bowie/NoteTaker/blob/main/public/assets/NoteTakerLanding.PNG)
 
 ## Table of Contents
 
