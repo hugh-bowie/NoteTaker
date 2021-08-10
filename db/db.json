@@ -1,22 +1,5 @@
 [
-    {
-        "title": "write Code Every day",
-        "text": "This is the only Way",
-        "id": 1
-    },
-    {
-        "title": "Watch less of the office",
-        "text": "Come on man, you've watched it start to finish at least ten times",
-        "id": 2
-    },
-    {
-        "title": "Volunteer at the local Soup Kitchen",
-        "text": "Tell them Creed Bratton sent ya",
-        "id": 3
-    },
-    {
-        "title": "Delete ME",
-        "text": "Bonus if you can delete existing nots",
-        "id": 4
-    }
+	{ "title": "write Code Every day", "text": "This is the only Way", "id": 1 },
+	{ "title": "Watch less of the office", "text": "Come on man, you've watched it start to finish at least ten times", "id": 2 },
+	{ "title": "Volunteer at the local Soup Kitchen", "text": "Tell them Creed Bratton sent ya", "id": 3 }
 ]

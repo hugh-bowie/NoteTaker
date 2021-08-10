@@ -3,6 +3,7 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	/* background-color: #000000; */
 }
 
 .save-note {
@@ -32,7 +33,7 @@ body {
 
 .note-title {
 	height: 50px;
-	
+
 	margin-top: 13px;
 	font-size: 3rem;
 }

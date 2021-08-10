@@ -1,14 +1,26 @@
 {
-  "name": "notetaker",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Hugh Bowie",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+	"name": "notetaker",
+	"version": "1.0.0",
+	"description": "![License: MIT](https://img.shields.io/badge/License-MIT-blue)",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js",
+		"watch": "nodemon server.js localhost 3000"
+	},
+	"author": "Hugh Bowie",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"nodemon": "^2.0.12"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hugh-bowie/note-taker.git"
+	},
+	"keywords": [],
+	"bugs": {
+		"url": "https://github.com/hugh-bowie/note-taker/issues"
+	},
+	"homepage": "https://github.com/hugh-bowie/note-taker#readme"
 }
