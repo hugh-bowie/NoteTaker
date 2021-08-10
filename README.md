@@ -12,14 +12,16 @@
 <p align="center">
     <img src="https://img.shields.io/badge/javascript-yellow" />
     <img src="https://img.shields.io/badge/express-orange" />
-    <img src="https://img.shields.io/badge/bootstrap-blue"  />
+    <img src="https://img.shields.io/badge/bootstrap-blueviolet"  />
     <img src="https://img.shields.io/badge/css-red"  />
-    <img src="https://img.shields.io/badge/nodemon-blue"  />
+    <img src="https://img.shields.io/badge/nodemon-brightgreen"  />
 </p>
 
 ## 📓 Description
 
 A node.js express.js application that uses user input to create, store and delete notes.
+
+#### ![Deployed App](https://hb-note-taker.herokuapp.com/)
 
 ## 🎬 Screenshot
 
@@ -85,7 +87,7 @@ npm run start
 
 ![Screencap](https://github.com/hugh-bowie/NoteTaker/blob/main/public/assets/NoteTakerDefault.PNG)
 
-### 3 Add new notes, review old notes, delete notes.
+### 3 Add new notes, review old notes, delete notes
 
 ## Built With Following Languages
 
