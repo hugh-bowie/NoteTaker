@@ -12,9 +12,9 @@
 <p align="center">
     <img src="https://img.shields.io/badge/javascript-yellow" />
     <img src="https://img.shields.io/badge/express-orange" />
-    <img src="https://img.shields.io/badge/React-blue"  />
-    <img src="https://img.shields.io/badge/mongoose-red"  />
-    <img src="https://img.shields.io/badge/indexeddb-blue"  />
+    <img src="https://img.shields.io/badge/bootstrap-blue"  />
+    <img src="https://img.shields.io/badge/css-red"  />
+    <img src="https://img.shields.io/badge/nodemon-blue"  />
 </p>
 
 ## 📓 Description
@@ -23,7 +23,7 @@ A node.js express.js application that uses user input to create, store and delet
 
 ## 🎬 Screenshot
 
-![note-taker](./public/assets/note-taker.PNG)
+![note-taker](./public/assets/NoteTakerLanding.PNG)
 
 ## 🃏 User Story
 
@@ -53,6 +53,11 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Table of Contents
 
+- [Description](#description)
+- [Screenshot](#Screenshot)
+- [User Story](#user-story)
+- [Accpetance Criteria](#Accpetance-Criteria)
+- [Table of Contents](#Table-of-contents)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -66,12 +71,9 @@ To install necessary dependencies, run the following command:
 
 ```
 npm init
-npm install express
+npm install express nodemon
+npm run start
 ```
-
-The following dependencies will be installed:
-
-- express
 
 ## Usage
 
