@@ -25,7 +25,7 @@ A node.js express.js application that uses user input to create, store and delet
 
 ## 🎬 Screenshot
 
-![note-taker](./public/assets/NoteTakerLanding.PNG)
+![note-taker](./public/assets/note-taker.gif)
 
 ## 🃏 User Story
 
