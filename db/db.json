@@ -1,5 +1,10 @@
 [
-	{ "title": "write Code Every day", "text": "This is the only Way", "id": 1 },
-	{ "title": "Watch less of the office", "text": "Come on man, you've watched it start to finish at least ten times", "id": 2 },
-	{ "title": "Volunteer at the local Soup Kitchen", "text": "Tell them Creed Bratton sent ya", "id": 3 }
+	{ "title": "Write Code Every day", "text": "This is the only Way", "id": 1 },
+	{ "title": "Watch less of The Office", "text": "Come on man, you've watched it start to finish at least ten times", "id": 2 },
+	{ "title": "Volunteer at the local Soup Kitchen", "text": "Tell them Creed Bratton sent ya", "id": 3 },
+	{
+		"title": "Deploy to Heroku",
+		"text": "We're ready to deploy our application, but we have one problem. GitHub Pages only deploys static sites made up of HTML pages, but we need to deploy a server.js file that is going to run a Node.js process. Therefore, we'll need to use Heroku.",
+		"id": 4
+	}
 ]
